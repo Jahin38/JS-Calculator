@@ -1,0 +1,154 @@
+body{
+
+    width: 100%;
+    background-color: rgb(246, 246, 230);
+}
+
+.calculator {
+
+    width: 500px;
+	height: 680px;
+	background: rgb(0, 0, 0);
+	color: #fce8e8;
+	top: 53%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px, 40px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+}
+
+button  {
+
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 100px;
+    width: 115px;
+    background: #343434;
+    margin: 2px 5px;
+    color: white;
+   
+}
+
+/* .redbutton .btn:hover {
+
+    background-color: rgb(252, 207, 207);
+} */
+
+.column {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.display {
+
+    padding: 8px 16px;
+    border: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0px;
+    height: 90px;
+    width: 468px;
+    margin: 10px 0px;
+    background: rgb(19, 20, 19);
+    color: white;
+}
+
+/* backspace button */
+
+.arrow {
+
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    height: 90px;
+    width: 363px;
+    background: #343434;
+    margin: 2px 5px;
+    color: white;
+    transform: translate(6px, -95px);
+    margin-left: 125px;
+}
+
+/*handle decimal number */
+
+.decimal {
+
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 100px;
+    width: 115px;
+    background: #343434;
+    margin: 2px 5px;
+    color: white;
+    margin-top: 0px;
+
+
+}
+
+
+#sub,
+#multiply,
+#div,
+#add {
+    background: rgb(193, 122, 10); /* Orange color */
+}
+
+#sub:hover,
+#multiply:hover,
+#div:hover,
+#add:hover {
+    background-color: rgb(150, 92, 5); /* Darker orange hover effect */
+}
+
+#one,
+#two,
+#three {
+    background: #8a511b; /* Default background */
+}
+
+#one:hover,
+#two:hover,
+#three:hover {
+    background-color: rgb(92, 92, 92); /* Darker grey on hover */
+}
+
+button:hover {
+
+    background-color: rgb(92, 92, 92);
+
+}
+button.redbutton{
+    background: rgb(136, 50, 50); 
+    font-size: 25px;
+}
+button.redbutton:hover{
+    background-color: rgb(243, 117, 117);
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 25px;
+    font-family: "Arial" sans-serif;
+}
+
